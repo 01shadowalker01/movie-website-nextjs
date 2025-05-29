@@ -1,6 +1,14 @@
+import MovieCard from "./MovieCard"
+
 const MovieList = () => {
     return (
-        <div>MovieList</div>
+        <div className="flex flex-wrap gap-4">
+            <MovieCard />
+            <MovieCard />
+            <MovieCard />
+            <MovieCard />
+            <MovieCard />
+        </div>
     )
 }
 

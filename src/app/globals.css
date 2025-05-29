@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
 
 :root {
-  --background: #ffffff;
+  --background: linear-gradient(to right, #000428, #004e92);
   --foreground: #171717;
 }
 
